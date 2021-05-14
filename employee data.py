@@ -15,7 +15,7 @@ c=conn.cursor()
 #           last_name text,
 #           address text,
 #           city text,
-#          state text,
+#           state text,
 #           contact_number integer,
 #           delete_box integer
 #)
