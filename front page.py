@@ -174,6 +174,7 @@ def menu():
     nextframe.pack(side=BOTTOM)
     nextbtn = Button(nextframe, text='next', bg='#E2CCA3', font=('arial', 15, 'bold'), command=next)
     nextbtn.pack()
+
     # messagebox.showinfo('info', 'login success')
 #creating customer window
 def customer():
@@ -394,7 +395,7 @@ def employee():
 
     login_btn = Button(LoginFrame2, text='Login', font='ariel,15,bold', bg='#E2CCA3', fg='#423930', command=login)
     login_btn.grid(row=3, column=1, pady=20, padx=20)
-
+    main_window.mainloop()
 
 # Button  option
 button_customer=Button(root,padx=10,pady=15,text="customer",command=customer,fg='#380808',bg="#E2CCA3",font=("Times",25,"bold"))
