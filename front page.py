@@ -337,7 +337,6 @@ def customer():
     login_btn = Button(frame, text="login", command=login)
     login_btn.grid(row=16, column=10, columnspan=6, padx=10, pady=10, ipadx=50)
 
-    print("Table created successfully")
     # commit chang
     conn.commit()
     # close connection
@@ -407,4 +406,5 @@ button_employee.place(x=300,y=650)
 
 
 root.mainloop()
+
 
